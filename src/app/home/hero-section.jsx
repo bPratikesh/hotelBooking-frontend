@@ -9,7 +9,7 @@ const HeroSection = () => {
         src="./assets/hero-image.jpeg"
         alt="Booking Hero image"
       />
-      <div className="z-[2] relative container spay-2">
+      <div className="z-[2] relative container space-y-2">
         <h1 className="mt-4 text-4xl font-extrabold leading-tight text-white md:text-5xl">
           Travel has never
           <br />
