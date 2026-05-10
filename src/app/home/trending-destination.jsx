@@ -1,6 +1,6 @@
-import React from "react";
-import { TRENDING_DESTINATIONS } from "@/config/app.config";
-import { getAssetPath } from "@/lib/utils";
+import React from 'react';
+import { TRENDING_DESTINATIONS } from '@/config/app.config';
+import { getAssetPath } from '@/lib/utils';
 
 const TrendingDestination = () => {
   return (
