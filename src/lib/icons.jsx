@@ -3,10 +3,13 @@ import {
   Car,
   CarTaxiFrontIcon,
   Check,
+  CircleCheck,
   Gem,
   HeartIcon,
+  InfoIcon,
   PlaneIcon,
   StarIcon,
+  Zap,
 } from 'lucide-react';
 
 export default {
@@ -17,5 +20,8 @@ export default {
   star: StarIcon,
   gem: Gem,
   heart: HeartIcon,
-  check: Check
+  check: Check,
+  circleCheck: CircleCheck,
+  zap: Zap,
+  info: InfoIcon,
 };
