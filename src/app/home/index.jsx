@@ -1,6 +1,6 @@
-import React from "react";
-import HeroSection from "./hero-section";
-import TrendingDestination from "./trending-destination";
+import React from 'react';
+import HeroSection from './hero-section';
+import TrendingDestination from './trending-destination';
 
 const Home = () => {
   return (
