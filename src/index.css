@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 @plugin "tailwindcss-animate";
 
 :root {
@@ -72,7 +72,7 @@
   --spacing-padding: 0.5rem;
 
   /* Font */
-  --font-sans: "Open Sans", system-ui, sans-serif;
+  --font-sans: 'Open Sans', system-ui, sans-serif;
 }
 
 * {
@@ -92,4 +92,10 @@ body {
   &:hover {
     scrollbar-color: var(--primary) var(--brand-color);
   }
+}
+
+button,
+a,
+[role='button'] {
+  @apply select-none cursor-pointer;
 }

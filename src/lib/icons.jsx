@@ -3,12 +3,19 @@ import {
   Car,
   CarTaxiFrontIcon,
   Check,
+  ChevronDown,
   CircleCheck,
   Gem,
   HeartIcon,
   InfoIcon,
+  LucideCalendarSearch,
+  MapPin,
+  Minus,
   PlaneIcon,
+  Plus,
   StarIcon,
+  User2,
+  X,
   Zap,
 } from 'lucide-react';
 
@@ -24,4 +31,11 @@ export default {
   circleCheck: CircleCheck,
   zap: Zap,
   info: InfoIcon,
+  close: X,
+  location: MapPin,
+  calendar: LucideCalendarSearch,
+  user: User2,
+  dropdown: ChevronDown,
+  minus: Minus,
+  plus: Plus
 };
